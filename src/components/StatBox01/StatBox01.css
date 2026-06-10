@@ -1,0 +1,375 @@
+.STATBOX1CONTAINER
+{
+
+    width: 18%;
+    height: 95%;
+
+    background: linear-gradient(to bottom, rgb(9, 33, 45, 0.8), rgb(38, 25, 46, 0.8));
+    box-shadow: 0px 4px 0px rgba(173, 173, 173, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    transition: background-color 0.3s;
+    cursor: pointer;
+
+    margin: 1%;
+
+}
+
+.STATBOX1CONTAINER p
+{
+
+    font-weight: bold;
+    font-style: italic;
+    font-size: X-small;
+
+}
+
+.ICONHINTS
+{
+    
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 25%;
+
+}
+
+/* ========================================================================================== */
+
+.HP
+{
+
+    background: linear-gradient(to bottom, rgba(68, 133, 87, 0.8), rgba(124, 226, 110, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.ATTACK
+{
+
+    background: linear-gradient(to bottom, rgba(133, 68, 71, 0.8), rgba(226, 110, 110, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.DEFENSE
+{
+
+    background: linear-gradient(to bottom, rgba(133, 89, 68, 0.8), rgba(226, 162, 110, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.SPECIALATTACK
+{
+
+    background: linear-gradient(to bottom, rgba(118, 68, 133, 0.8), rgba(226, 110, 220, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.SPECIALDEFENSE
+{
+
+    background: linear-gradient(to bottom, rgba(180, 157, 94, 0.8), rgba(250, 217, 126, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.SPEED
+{
+
+    background: linear-gradient(to bottom, rgba(68, 133, 128, 0.8), rgba(117, 241, 235, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.GENERATION-I
+{
+
+    background: linear-gradient(to bottom, #E74C3C, #C0392B);
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.GENERATION-II
+{
+
+    background: linear-gradient(to bottom, #F1C40F, #F39C12);
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.GENERATION-III
+{
+
+    background: linear-gradient(to bottom, #1ABC9C, #16A085);
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.GENERATION-IV
+{
+
+    background: linear-gradient(to bottom, #ECF0F1, #BDC3C7);
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.GENERATION-V
+{
+
+    background: linear-gradient(to bottom, #34495E, #2C3E50);
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.GENERATION-VI
+{
+
+    background: linear-gradient(to bottom, #9B59B6, #8E44AD);
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.GENERATION-VII
+{
+
+    background: linear-gradient(to bottom, #2ECC71, #27AE60);
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.GENERATION-VIII
+{
+
+    background: linear-gradient(to bottom, #3498DB, #2980B9);
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.GENERATION-IX
+{
+
+    background: linear-gradient(to bottom, #E67E22, #D35400);
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.NORMAL
+{
+
+    background: linear-gradient(to bottom, rgba(161, 161, 161, 0.8), rgba(184, 184, 184, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.FIGHTING
+{
+
+    background: linear-gradient(to bottom, rgba(153, 94, 60, 0.8), rgba(240, 145, 82, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.FLYING
+{
+
+    background: linear-gradient(to bottom, rgba(143, 204, 196, 0.8), rgba(183, 255, 243, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.POISON
+{
+
+    background: linear-gradient(to bottom, rgba(94, 51, 129, 0.8), rgba(146, 90, 211, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.GROUND
+{
+
+    background: linear-gradient(to bottom, rgba(82, 70, 66, 0.8), rgba(143, 126, 120, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.ROCK
+{
+
+    background: linear-gradient(to bottom, rgba(85, 69, 51, 0.8), rgba(190, 164, 138, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.BUG
+{
+
+    background: linear-gradient(to bottom, rgba(138, 151, 92, 0.8), rgba(236, 255, 150, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.GHOST
+{
+
+    background: linear-gradient(to bottom, rgba(85, 56, 131, 0.8), rgba(123, 91, 211, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.STEEL
+{
+
+    background: linear-gradient(to bottom, rgba(87, 95, 95, 0.8), rgba(168, 192, 192, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.FIRE
+{
+
+    background: linear-gradient(to bottom, rgba(151, 57, 57, 0.8), rgba(247, 101, 101, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.WATER
+{
+
+    background: linear-gradient(to bottom, rgba(47, 120, 143, 0.8), rgba(60, 204, 214, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.GRASS
+{
+
+    background: linear-gradient(to bottom, rgba(50, 110, 42, 0.8), rgba(83, 216, 94, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.ELECTRIC
+{
+
+    background: linear-gradient(to bottom, rgba(122, 110, 40, 0.8), rgba(255, 241, 117, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.PSYCHIC
+{
+
+    background: linear-gradient(to bottom, rgba(92, 31, 72, 0.8), rgba(255, 101, 247, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.ICE
+{
+
+    background: linear-gradient(to bottom, rgba(114, 148, 140, 0.8), rgba(222, 255, 253, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.DRAGON
+{
+
+    background: linear-gradient(to bottom, rgba(48, 37, 66, 0.8), rgba(137, 110, 211, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.DARK
+{
+
+    background: linear-gradient(to bottom, rgba(58, 55, 55, 0.8), rgba(99, 97, 97, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.FAIRY
+{
+
+    background: linear-gradient(to bottom, rgba(104, 87, 105, 0.8), rgba(240, 167, 230, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.NONE
+{
+
+    background: linear-gradient(to bottom, rgba(161, 161, 161, 0.8), rgba(184, 184, 184, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.FIRSTSTAGE
+{
+
+    background: linear-gradient(to bottom, rgba(47, 69, 110, 0.8), rgba(97, 178, 224, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.NONFIRSTSTAGE
+{
+
+    background: linear-gradient(to bottom, rgba(47, 110, 68, 0.8), rgba(97, 224, 124, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.UNAVA
+{
+
+    background: linear-gradient(to bottom, rgba(92, 92, 92, 0.8), rgba(112, 112, 112, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+

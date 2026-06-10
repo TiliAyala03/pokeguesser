@@ -1,0 +1,113 @@
+.MAINRESULTS
+{
+
+    height: 90vh;
+    max-height: 90vh;
+
+    overflow-y: auto;
+
+    width: 40vw;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: start;
+    align-items: center;
+    padding: 0.5%;
+    color: white;
+
+    scrollbar-width: thin; /* Barra más delgada (para Firefox) */
+    scrollbar-color: #555 transparent; /* Color de la barra y fondo (Firefox) */
+}
+
+.PRETITLE
+{
+
+    margin-bottom: 0px;
+
+}
+
+.TITLE
+{
+    text-shadow: 0px 4px 10px rgba(173, 173, 173, 0.8);
+    line-height: 0;
+    color: rgb(89, 194, 129);
+}
+
+.POKEMONIMAGERESULTS
+{
+
+    height: 40%;
+    min-height: 40%;
+    width: auto;
+
+}
+
+.COUNTDOWN
+{
+
+    margin-top: 0px;
+
+}
+
+.SUBTITLE
+{
+
+    font-size: small;
+    font-weight: bold;
+
+}
+
+.STATSCONTAINER
+{
+
+    width: 30vw;
+    height: 20vh;
+    min-height: 20vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (max-width: 768px) 
+{
+
+    .MAINRESULTS
+    {
+
+        height: auto;
+
+        overflow-y: auto;
+
+        width: 95vw;
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: start;
+        align-items: center;
+        padding: 0.5%;
+        color: white;
+
+        scrollbar-width: thin; /* Barra más delgada (para Firefox) */
+        scrollbar-color: #555 transparent; /* Color de la barra y fondo (Firefox) */
+    }
+
+    .STATSCONTAINER
+    {
+
+        width: 90vw;
+        height: 20vh;
+        min-height: 20vh;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}

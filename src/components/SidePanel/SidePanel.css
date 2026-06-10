@@ -1,0 +1,105 @@
+.CONTAINERADS
+{
+
+    /*background-color: antiquewhite;*/
+
+    height: 90vh;
+    max-height: 90vh;
+
+    overflow-y: hidden;
+
+    width: 30vw;
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.SMALLAD
+{
+
+    width: 25vw;
+    height: 50vh;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.BIGAD
+{
+
+    width: 25vw;
+    height: 60vh;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+@media (max-width: 768px) 
+{
+
+    .CONTAINERADS
+    {
+
+        width: 95vw;
+        height: auto;
+        max-height: 40vh;
+
+        overflow-y: auto;
+
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        justify-content: start;
+        /*background-color: aqua;*/
+
+        flex-shrink: 0;
+
+    }
+
+    .SMALLAD
+    {
+
+        width: 95vw;
+        height: 10vh;
+
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .BIGAD
+    {
+
+        width: 95vw;
+        height: 10vh;
+
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .adsbygoogle
+    {
+
+        width: 95vw;
+        height: 10vh;
+
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+}

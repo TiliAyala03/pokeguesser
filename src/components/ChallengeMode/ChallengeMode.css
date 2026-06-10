@@ -1,0 +1,470 @@
+.RULESCONTAINER
+{
+
+    height: 90vh; /* Altura del viewport */
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    color: white;
+
+}
+
+.CHALLENGELOGO
+{
+
+    width: 45%;
+    height: auto;
+
+}
+
+.ACTUALRULES
+{
+
+    width: 50%;
+    height: 40%;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    overflow-y: auto;
+
+    scrollbar-width: thin; /* Barra más delgada (para Firefox) */
+    scrollbar-color: #555 transparent; /* Color de la barra y fondo (Firefox) */
+
+    background-color: rgb(14, 14, 14);
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(173, 173, 173, 0.2);
+
+}
+
+.ACTUALRULES p
+{
+    margin: 5px;
+    line-height: 1.6;
+
+}
+
+.REDTEXT
+{
+
+    color: rgb(255, 118, 110);
+    font-weight: bold;
+    
+
+}
+
+.PLAYBUTTON
+{
+
+    background-color: rgb(9, 33, 45, 0.8);
+    box-shadow: 0px 4px 10px rgba(173, 173, 173, 0.2);
+    transition: background-color 0.3s;
+    cursor: pointer;
+
+    height: 7%;
+    width: 25%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 25px;
+
+    border-radius: 50px;
+
+
+}
+
+/*=======================================================================================*/
+
+.CHALLENGECONTAINER
+{
+
+    height: 90vh;
+    max-height: 90vh;
+    min-height: 90vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto;
+
+    color: white;
+    flex-shrink: 0;
+
+    scrollbar-width: thin; /* Barra más delgada (para Firefox) */
+    scrollbar-color: #555 transparent; /* Color de la barra y fondo (Firefox) */
+
+}
+
+.CHALLENGECONTAINER > *
+{
+    flex-shrink: 0;
+}
+
+.RIGHTANSWERSBOXEXT
+{
+
+    width: 60%;
+    height: 15%;
+    min-height: 15%;
+
+    background: linear-gradient(to bottom, rgb(9, 33, 45, 0.8), rgb(38, 25, 46, 0.8));
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+
+
+}
+
+.RIGHTANSWERSBOXINT
+{
+
+    width: 98%;
+    height: 93%;
+
+    overflow-y: auto;
+
+    background-color: rgb(84, 172, 184, 0.05);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    scrollbar-width: thin; /* Barra más delgada (para Firefox) */
+    scrollbar-color: #555 transparent; /* Color de la barra y fondo (Firefox) */
+
+}
+
+.RIGHTANSWERSBOXINT::-webkit-scrollbar {
+    width: 6px; /* Ancho de la barra */
+    background-color: transparent; /* Fondo de la barra (opcional) */
+}
+
+.RIGHTANSWERSBOXINT::-webkit-scrollbar-thumb {
+    background-color: #555; /* Color de la barra */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.RIGHTANSWERSBOXINT::-webkit-scrollbar-thumb:hover {
+    background-color: #777; /* Color al pasar el mouse */
+}
+
+.RIGHTANSWERSBOXINT::-webkit-scrollbar-track {
+    background: transparent; /* Fondo del track (opcional) */
+}
+
+.RIGHTANSWERBLANK
+{
+
+    height: 3vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    width: auto;
+
+}
+
+.RIGHTANSWER
+{
+
+    height: 5vh;
+    width: auto;
+
+}
+
+.LIFEBARCHALLENGE
+{
+
+    width: 55%;
+    height: auto;
+    padding-top: 5%;
+
+}
+
+.STATSCONTAINER01
+{
+
+    width: 70%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+
+}
+
+.STATSCONTAINER02
+{
+
+    width: 70%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+
+}
+
+.STREAKCONTAINER
+{
+
+    width: 70%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+
+}
+
+.GAMEOVERSCREEN
+{
+
+    height: 90vh;
+    max-height: 90vh;
+    min-height: 90vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto;
+
+    text-align: center;
+
+    color: white;
+    flex-shrink: 0;
+
+    scrollbar-width: thin; /* Barra más delgada (para Firefox) */
+    scrollbar-color: #555 transparent; /* Color de la barra y fondo (Firefox) */
+
+}
+
+.GAMEOVERTITLE
+{
+
+    font-size: 300%;
+    color: rgb(255, 80, 80);
+    margin-top: 20%;
+    margin-bottom: 0;
+
+}
+
+.GAMEOVERPOKEMON
+{
+
+    font-style: italic;
+    color: rgb(217, 222, 226);
+
+}
+
+.RETRYBUTTON
+{
+
+    background-color: rgb(9, 33, 45, 0.8);
+    box-shadow: 0px 4px 10px rgba(173, 173, 173, 0.2);
+    transition: background-color 0.3s;
+    cursor: pointer;
+
+    height: 7%;
+    width: 25%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 25px;
+
+    font-weight: bold;
+
+    border-radius: 50px;
+
+}
+
+@media (max-width: 768px) 
+{
+
+    .RULESCONTAINER
+    {
+
+        height: auto;
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        overflow: hidden;
+
+        color: white;
+
+    }
+
+    .ACTUALRULES
+    {
+
+        width: 70%;
+        height: 60%;
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        overflow-y: auto;
+
+        scrollbar-width: thin; /* Barra más delgada (para Firefox) */
+        scrollbar-color: #555 transparent; /* Color de la barra y fondo (Firefox) */
+
+        background-color: rgb(14, 14, 14);
+        border-radius: 5px;
+        box-shadow: 0px 4px 10px rgba(173, 173, 173, 0.2);
+
+    }
+
+    .CHALLENGELOGO
+    {
+
+        margin-top: 1%;
+
+        width: 45%;
+        height: auto;
+
+    }
+
+    .CHALLENGECONTAINER
+    {
+
+        height: auto;
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        overflow-y: auto;
+
+        color: white;
+        flex-shrink: 0;
+
+        scrollbar-width: thin; /* Barra más delgada (para Firefox) */
+        scrollbar-color: #555 transparent; /* Color de la barra y fondo (Firefox) */
+
+    }
+
+    .RIGHTANSWERSBOXEXT
+    {
+
+        width: 80%;
+        height: 10vh;
+
+        background: linear-gradient(to bottom, rgb(9, 33, 45, 0.8), rgb(38, 25, 46, 0.8));
+        border-radius: 5px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+
+
+    }
+
+    .RIGHTANSWERBLANK
+    {
+
+        height: 3vh;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        width: auto;
+
+    }
+
+    .LIFEBARCHALLENGE
+    {
+
+        width: 70%;
+        height: auto;
+        padding-top: 5%;
+
+    }
+
+    .STATSCONTAINER01
+    {
+
+        width: 90%;
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1%;
+
+    }
+
+    .STATSCONTAINER02
+    {
+
+        width: 90%;
+        height: 15vh;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2%;
+
+    }
+
+    .STREAKCONTAINER
+    {
+
+        width: 90%;
+        height: 18vh;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2%;
+
+    }
+
+    .GAMEOVERSCREEN
+    {
+
+        height: auto;
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        overflow-y: auto;
+
+        text-align: center;
+
+        color: white;
+        flex-shrink: 0;
+
+        scrollbar-width: thin; /* Barra más delgada (para Firefox) */
+        scrollbar-color: #555 transparent; /* Color de la barra y fondo (Firefox) */
+
+    }
+
+}
+

@@ -1,0 +1,54 @@
+.MAINGUESSESRESULTS
+{
+
+    width: 25vw;
+    height: 5vh;
+    min-height: 5vh;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.POKEMONGUESS
+{
+
+    height: 100%;
+    margin: 0;
+
+}
+
+.SEPARATOR
+{
+
+    height: 90%;
+    width: 2px;
+    background-color: rgb(143, 143, 143);
+
+}
+
+@media (max-width: 768px) 
+{
+
+    .MAINGUESSESRESULTS
+    {
+
+        width: 90vw;
+        height: 5vh;
+        min-height: 5vh;
+
+        overflow: hidden;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+}

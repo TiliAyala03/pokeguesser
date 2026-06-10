@@ -1,0 +1,99 @@
+.POKEDEX
+{
+
+    height: 90vh; /* Altura del viewport */
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    text-align: center;
+
+    color: white;
+
+}
+
+.POKEDEX p
+{
+
+    font-size: small;
+    font-style: italic;
+    color: rgb(143, 143, 143);
+
+}
+
+.BLANK
+{
+
+    width: 10%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2%;
+
+}
+
+.NONBLANK
+{
+
+    width: 10%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2%;
+
+}
+
+.OUTERPROGRESSBAR
+{
+
+    width: 100%;
+    background-color: rgb(77, 77, 77, 0.5);
+    height: 4%;
+    border-radius: 50px;
+
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+}
+
+.INNERPROGRESSBAR
+{
+
+    height: 100%;
+    background-color: rgb(99, 194, 99);
+    
+}
+
+.POKEDEX h4
+{
+
+    width: 100%;
+    color: rgb(224, 224, 224);
+    margin-top: 0.5%;
+
+}
+
+@media (max-width: 768px) 
+{
+
+    .POKEDEX
+    {
+
+        height: 90vh; /* Altura del viewport */
+        width: 95vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-y: auto;
+        text-align: center;
+
+        color: white;
+
+    }
+
+}

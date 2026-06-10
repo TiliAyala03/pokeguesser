@@ -1,0 +1,13 @@
+body 
+{
+    font-family: 'Rubik', sans-serif;
+}
+
+html, body 
+{
+    margin: 0;          /* Eliminar márgenes predeterminados */
+    padding: 0;         /* Eliminar padding predeterminado */
+    width: 100vw;        /* Asegurar que cubra todo el ancho */
+    height: 100vh;       /* Asegurar que cubra toda la altura */
+    background-color: rgb(3, 3, 3);
+}

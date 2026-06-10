@@ -1,0 +1,90 @@
+.HINTSCONTAINER
+{
+
+    width: 80%;
+    height: 35vh;
+    min-height: 35vh;
+    max-height: 35vh;
+    margin: 5%;
+
+    background: linear-gradient(to bottom, rgb(9, 33, 45, 0.8), rgb(38, 25, 46, 0.8));
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+    border-radius: 25px;
+
+    overflow-y: auto;
+
+    scrollbar-width: thin; /* Barra más delgada (para Firefox) */
+    scrollbar-color: #555 transparent; /* Color de la barra y fondo (Firefox) */
+    box-shadow: 0px 4px 10px rgba(173, 173, 173, 0.2);
+
+}
+
+.HINTSCONTAINER p
+{
+
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+
+/* Para navegadores basados en WebKit (Chrome, Edge, Safari) */
+.HINTSCONTAINER::-webkit-scrollbar {
+    width: 6px; /* Ancho de la barra */
+    background-color: transparent; /* Fondo de la barra (opcional) */
+}
+
+.HINTSCONTAINER::-webkit-scrollbar-thumb {
+    background-color: #555; /* Color de la barra */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.HINTSCONTAINER::-webkit-scrollbar-thumb:hover {
+    background-color: #777; /* Color al pasar el mouse */
+}
+
+.HINTSCONTAINER::-webkit-scrollbar-track {
+    background: transparent; /* Fondo del track (opcional) */
+}
+
+
+.bold-text {
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) 
+{
+
+    .HINTSCONTAINER
+    {
+
+        width: 80%;
+        height: 10vh;
+        margin: 5%;
+
+        background: linear-gradient(to bottom, rgb(9, 33, 45, 0.8), rgb(38, 25, 46, 0.8));
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        color: white;
+        border-radius: 25px;
+
+        overflow-y: auto;
+
+        scrollbar-width: thin; /* Barra más delgada (para Firefox) */
+        scrollbar-color: #555 transparent; /* Color de la barra y fondo (Firefox) */
+        box-shadow: 0px 4px 10px rgba(173, 173, 173, 0.2);
+
+        
+
+    }
+
+}

@@ -1,0 +1,56 @@
+.MICROGUESSESCONTAINER
+{
+
+    width: 60%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    margin-top: 2%;
+
+}
+
+.BLANKGUESS
+{
+
+    height: 30%;
+    width: auto;
+    margin-left: 4%;
+    margin-right: 4%;
+
+}
+
+.NONBLANKGUESS
+{
+
+    height: 90%;
+    width: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+@media (max-width: 768px) 
+{
+
+    .MICROGUESSESCONTAINER
+{
+
+    width: 80%;
+    height: 4%;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    margin-top: 2%;
+
+}
+
+}

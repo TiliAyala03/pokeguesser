@@ -1,0 +1,48 @@
+.STATBOX2CONTAINER
+{
+
+    width: 50%;
+    height: 90%;
+
+    background: linear-gradient(to bottom, rgb(9, 33, 45, 0.8), rgb(38, 25, 46, 0.8));
+    box-shadow: 0px 4px 0px rgba(173, 173, 173, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    transition: background-color 0.3s;
+    cursor: pointer;
+
+    margin: 1%;
+
+}
+
+.USED
+{
+
+    background: linear-gradient(to bottom, rgba(161, 161, 161, 0.8), rgba(184, 184, 184, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.UNAVA
+{
+
+    background: linear-gradient(to bottom, rgba(92, 92, 92, 0.8), rgba(112, 112, 112, 0.8));
+    transition: background-color 0.3s;
+    cursor: default;
+
+}
+
+.STATBOX2CONTAINER p
+{
+
+    font-weight: bold;
+    font-style: italic;
+    font-size: X-small;
+
+}
