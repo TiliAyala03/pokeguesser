@@ -83,6 +83,7 @@
 
         width: 95vw;
         height: 10vh;
+        max-height: 10vh;
 
         align-items: center;
         justify-content: center;
@@ -95,10 +96,24 @@
 
         width: 95vw;
         height: 10vh;
+        max-height: 10vh;
 
         align-items: center;
         justify-content: center;
         display: flex;
+
+    }
+
+    .adsbygoogle
+    {
+
+            width: 90vw;
+            height: 10vh;
+            max-height: 10vh;
+
+            align-items: center;
+            justify-content: center;
+            display: flex;
 
     }
 
