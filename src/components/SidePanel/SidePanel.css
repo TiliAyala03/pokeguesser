@@ -111,6 +111,9 @@
             height: 10vh;
             max-height: 10vh;
 
+            overflow-y: auto;
+            overflow-x: hidden;
+
             align-items: center;
             justify-content: center;
             display: flex;
