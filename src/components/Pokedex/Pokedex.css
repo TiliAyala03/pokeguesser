@@ -12,6 +12,8 @@
 
     color: white;
 
+    flex-shrink: 0;
+
 }
 
 .POKEDEX p
