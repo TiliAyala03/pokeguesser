@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "private": true,
+  "homepage": "https://tiliayala03.github.io/pokeguesser/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
